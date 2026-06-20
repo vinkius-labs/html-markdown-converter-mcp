@@ -1,0 +1,46 @@
+{
+  "capabilities": {
+    "tools": {
+      "convert_html_to_markdown": {
+        "behavior": {
+          "affordanceTopology": [],
+          "cognitiveGuardrails": {
+            "agentLimitMax": null,
+            "egressMaxBytes": null
+          },
+          "destructiveActions": [],
+          "egressSchemaDigest": null,
+          "middlewareChain": [],
+          "readOnlyActions": [],
+          "systemRulesFingerprint": "static:a70137bd206652c253c21e330649cd5e13279b70ff1b033bcbcf59dec58fd6dd"
+        },
+        "entitlements": {
+          "codeEvaluation": false,
+          "crypto": false,
+          "filesystem": false,
+          "network": false,
+          "subprocess": false
+        },
+        "integrityDigest": "sha256:ad4c57456fe62c4fd116d18b52a557192265d651c6d0e32641ba768c86491aa5",
+        "surface": {
+          "actions": [
+            "default"
+          ],
+          "description": "[INSTRUCTIONS] Use this tool to convert raw HTML into clean Markdown format. Pass the HTML string and receive properly formatted Markdown with headings, links, lists, and code blocks preserved.\n\nConverts raw HTML strings into clean Markdown deterministically without LLM truncation or data loss.. Select operation via the `action` parameter. Actions: default\n\nWorkflow:\n- 'default': [INSTRUCTIONS] Use this tool to convert raw HTML into clean Markdown format. Pass the HTML string and receive properly formatted Markdown with headings, links, lists, and code blocks preserved.\n\nConverts raw HTML strings into clean Markdown deterministically without LLM truncation or data loss.. Requires: htmlStr",
+          "inputSchemaDigest": "sha256:e97513a5842a7f158c383c0b6a804bcaf524cd43db18ef2859480803f1f65d24",
+          "tags": []
+        },
+        "tokenEconomics": {
+          "inflationRisk": "low",
+          "schemaFieldCount": 0,
+          "unboundedCollection": false
+        }
+      }
+    }
+  },
+  "generatedAt": "2026-06-20T05:58:20.614Z",
+  "integrityDigest": "sha256:c3722d7375424ce87b93f4805758a69b185c8ec21a71b85afc1fbcbdcaf76ad0",
+  "lockfileVersion": 1,
+  "mcpfusionVersion": "4.3.0",
+  "serverName": "mcpfusion-server"
+}
